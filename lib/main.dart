@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
+    //This is the materialapp
     MaterialApp(
       home: Scaffold(
         body: Container(
