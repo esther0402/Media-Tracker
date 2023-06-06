@@ -26,7 +26,7 @@ class _AddPressedState extends State<AddPressed> {
           onPressed: addVariable,
           icon: const Icon(Icons.add),
           color: Colors.amber,
-          iconSize: 50.0,
+          iconSize: 40.0,
           padding: const EdgeInsets.only(bottom: 40),
         ),
         Text('$tasks')
