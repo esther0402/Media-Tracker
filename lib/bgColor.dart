@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:media_tracker/AddPressed.dart';
+import 'package:media_tracker/addPressed.dart';
 
 class BackgroundColor extends StatelessWidget {
   const BackgroundColor({super.key});
