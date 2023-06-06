@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:media_tracker/BgContainer.dart';
+import 'package:media_tracker/Background.dart';
 
 void main() {
   runApp(
