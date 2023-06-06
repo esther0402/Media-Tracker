@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:media_tracker/Background.dart';
+import 'package:media_tracker/BackgroundColor.dart';
 
 void main() {
   runApp(
     const MaterialApp(
       home: Scaffold(
-        body: BgContainer(),
+        body: BackgroundColor(),
       ),
     ),
   );
