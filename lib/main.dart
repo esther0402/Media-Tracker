@@ -3,9 +3,13 @@ import 'package:media_tracker/bgColor.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+    MaterialApp(
       home: Scaffold(
-        body: BackgroundColor(),
+        appBar: AppBar(
+          title: const Text('Media Tracker'),
+          backgroundColor: Colors.blue,
+        ),
+        body: const BackgroundColor(),
       ),
     ),
   );

@@ -13,6 +13,7 @@ class _AddPressedState extends State<AddPressed> {
   int tasks = 0;
 
   void addVariable() {
+    //adds the number of tasks
     setState(() {
       tasks++;
     });
