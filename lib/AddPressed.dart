@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AddPressed extends StatefulWidget {
-  const AddPressed({Key? key}) : super(key: key);
+  const AddPressed({super.key});
 
   @override
   State<AddPressed> createState() {
@@ -20,18 +20,17 @@ class _AddPressedState extends State<AddPressed> {
   }
 
   @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [
-        IconButton(
-          onPressed: addVariable,
-          icon: const Icon(Icons.add),
-          color: Colors.amber,
-          iconSize: 40.0,
-          padding: const EdgeInsets.only(bottom: 40),
-        ),
-        Text('$tasks')
-      ],
+  Widget build(context) {
+    return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: addVariable,
+        child: const Icon(Icons.add),
+      ),
+      body: Column(
+        children: [
+          Text('Number pressed: $tasks'),
+        ],
+      ),
     );
   }
 }
